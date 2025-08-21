@@ -1,6 +1,7 @@
 
 
 body {
+
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; 
     margin: 0;
     padding: 0;
@@ -10,18 +11,20 @@ body {
     align-items: center;
     min-height: 100vh;
     overflow: hidden;
+    background-image: url(https://i.pinimg.com/736x/0e/1b/59/0e1b59007caaa312d5f634aa42e06313.jpg);
+    background-size: 100% 100%;
 }
 
 .container {
     
     max-width: 500px; 
     width: 100%;
-     padding: 20px 25px;
-    background: rgba(255, 255, 255, 0.15);
+    padding: 20px 25px;
+    background: rgba(195, 218, 215, 0.582); 
     border-radius: 30px; 
-    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37); 
+    box-shadow: 0 8px 32px 0 rgba(21, 25, 32, 0.466); 
     backdrop-filter: blur(10px); 
-    border: 1px solid rgba(255, 255, 255, 0.18); 
+    border: 1px solid rgba(255, 255, 255, 0.274); 
     position: relative;
     overflow: hidden;
     animation: float 6s ease-in-out infinite; 
@@ -30,18 +33,6 @@ body {
 @keyframes float {
     0%, 100% { transform: translateY(0); }
     50% { transform: translateY(-10px); }
-}
-
-header {
-    background-image: url('https://i.pinimg.com/1200x/40/88/fa/4088fa4c2875d1a7effe4f6645e6c510.jpg'); /* Placeholder: library-themed image */
-    background-size: cover;
-    background-position: center;
-    border-radius: 20px; /* Rounded to match glassmorphism */
-    padding: 15px 20px; /* Compact padding for header */
-    margin-bottom: 12px; /* Space below header */
-    background-color: rgba(255, 255, 255, 0.2); /* Slight transparency for glass effect */
-    backdrop-filter: blur(8px); /* Subtle blur over image */
-    position: relative;
 }
 
 
@@ -57,7 +48,7 @@ h1 {
 .subtitle {
     text-align: center;
     margin-bottom: 20px;
-    color: #666;
+    color: #491a1a;
     font-size: 16px;
 }
 
@@ -69,8 +60,9 @@ h1 {
 label {
     display: block;
     margin-bottom: 8px;
-    color: #555;
-    font-size: 14px;
+    font-weight: bolder;
+    color: #310808;
+    font-size: 15px;
     font-weight: 500;
 }
 
