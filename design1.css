@@ -30,17 +30,19 @@ h6 span{
 
 
 .hi {
-  margin-left: 16cm;
+  margin-left: auto;
   margin-bottom: 30px;
 }
 .phoneImg {
+margin-left: -6cm;
+align-items: center
 
 
 }
-.section{
-  position: relative;
-  width: 100%;
-  display: block;
+.section .container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .full-height{
   min-height: 100vh;
@@ -61,7 +63,7 @@ display: none;
   margin: 10px auto;
   cursor: pointer;
   background-color: #24056e;
-  margin-left: 22cm;
+  margin-left: auto;
 }
 .checkbox:checked + label:before,
 .checkbox:not(:checked) + label:before{
@@ -86,7 +88,7 @@ display: none;
   transform: translateX(44px) rotate(-270deg);
 }
 .card-3d-wrap {
-left: 300px;
+ left: auto;
   position: relative;
   width: 440px;
   max-width: 100%;
@@ -196,5 +198,4 @@ left: 300px;
     margin-left: 16cm;
     margin-bottom: 20px;
 }
-
 
